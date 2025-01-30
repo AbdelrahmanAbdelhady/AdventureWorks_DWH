@@ -45,7 +45,7 @@ The source database, AdventureWorks2019, is a transactional system that contains
 <h3>4. Technologies Used Overview</h3>
 The following technologies were used in this project:
 
-**SQL Server**: For managing the transactional database (gravity_books) and the data warehouse (Gravity_Books_DWH).
+**SQL Server**: For managing the transactional database (adventureworks2019) and the data warehouse (Adventure_Works_DWH).
 
 **SSIS (SQL Server Integration Services)**: For building the ETL process to populate the data warehouse.
 
@@ -60,9 +60,9 @@ The following technologies were used in this project:
 
 The data warehouse (AdventureWorks_DWH) was designed using a star schema approach. The schema consists of:
 
-Fact Tables: Central tables that store quantitative data (e.g., sales facts).
+**Fact Tables**: Central tables that store quantitative data (e.g., sales facts).
 
-Dimension Tables: Surrounding tables that store descriptive attributes (e.g., customer, product, date, and shipping dimensions).
+**Dimension Tables**: Surrounding tables that store descriptive attributes (e.g., customer, product, date, and shipping dimensions).
 
 A date dimension was incorporated to support historical tracking and time-based analysis.
 
@@ -136,7 +136,7 @@ The Analysis and Reporting Phase focused on exploring the data in the data wareh
 ![Salesmen performance Analysis](https://github.com/user-attachments/assets/874d367d-de48-4174-952d-6c09cb358036)
 
 
-
+<hr>
 
 
 <h3>8. Conclusion</h3>
