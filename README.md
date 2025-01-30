@@ -25,13 +25,18 @@ The goal of this project was to design and implement a robust data warehouse (Ad
 
 The source database, AdventureWorks2019, is a transactional system that contains the following tables:
 
+
 **Product-related tables**: Product, ProductCategory, ProductSubcategory, ProductModel.
+![407921501-69cb6d74-3636-4bda-b778-9c407393c678](https://github.com/user-attachments/assets/6498fb2e-ff85-456f-86ad-6fea1530c5a7)
+
 
 **Customer-related tables**: Customer, Person, SalesTerritory, Address, StateProvince, CountryRegion.
 
-**Order-related tables**: SalesOrderHeader, SalesOrderDetail, SpecialOffer.
+**Order-related tables**: SalesOrderHeader, SalesOrderDetailز
+![407920621-e26959d4-ce56-418b-986c-4681c23c563b](https://github.com/user-attachments/assets/d31e038a-a855-40dd-8d97-61d07ac8ce85)
 
 **Shipping and delivery**: ShipMethod, TransactionHistory.
+![407925419-d0a5c3e3-de58-4eb9-95e3-59124e939ea2](https://github.com/user-attachments/assets/179988b3-f086-42f9-b1b8-52c4aa3260ce)
 
 **Employee and Sales**: SalesPerson, Employee, SalesTerritoryHistory.
 
@@ -87,7 +92,7 @@ Dim_Customers ETL:
 
 
 Dim_Products ETL:
-![Uploading Dim_Products ETL.png…]()
+![Dim_Products ETL](https://github.com/user-attachments/assets/9779f3f7-1adf-4e85-87f7-93d36d23dfe2)
 
 
 Dim_SalesMen ETL:
