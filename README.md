@@ -86,6 +86,7 @@ Implemented mechanisms to detect and manage orphan records in foreign key relati
 
 A key enhancement in this project was the implementation of an incremental load mechanism in the fact table. Instead of reloading all data with each ETL cycle, only new and updated records were processed, significantly improving performance and reducing resource consumption.
 
+**Load**: Transformed data was loaded into the AdventureWorks_DWH data warehouse, ensuring efficient and scalable data processing.
 
 Dim_Customers ETL:
 ![Dim_Customers ETL](https://github.com/user-attachments/assets/b2e090ea-25c1-46a3-846f-181fd8bc81e8)
@@ -118,37 +119,43 @@ Result Fact Table:
 
 <hr>
 
-<h3>8. Reporting and Data visualization (Power BI) </h3>
+<h3>7. Reporting and Data visualization (Power BI) </h3>
 
 
 The Analysis and Reporting Phase focused on exploring the data in the data warehouse (adventure_works_dwh) and generating actionable insights for the adventureworks store. This phase involved the creation of interactive reports and dashboards using Power BI, which allowed business users to explore the data and gain valuable insights. Below are the key components of this phase:
 
 
-![Uploading Overview.png…]()
+![Overview](https://github.com/user-attachments/assets/3ad3fe87-98a3-4703-a35d-0a82cbeac69c)
 
 
-![Uploading Products Analysis.png…]()
+![Products Analysis](https://github.com/user-attachments/assets/06999a6e-1274-455b-9899-3fbd2e709b6e)
+
+![Territory Analysis](https://github.com/user-attachments/assets/2c618de3-6f0e-4ed6-be2f-70bebeafd207)
 
 
-
-
-
-
-
-
+![Salesmen performance Analysis](https://github.com/user-attachments/assets/874d367d-de48-4174-952d-6c09cb358036)
 
 
 
 
 
+<h3>8. Conclusion</h3>
 
+The AdventureWorks 2019 Data Warehouse Project was a valuable learning experience, providing hands-on exposure to data warehousing, ETL processes, and business intelligence. This project introduced advanced ETL concepts, such as:
 
+**Incremental Loading in Fact Tables**: Improved data processing efficiency by only loading new and updated records.
 
+**Orphan Data Handling**: Ensured referential integrity by identifying and managing orphan records in foreign key relationships.
 
+**Slowly Changing Dimensions (SCD)**: Tracked historical changes in dimension data.
 
+**Star Schema Design**: Optimized query performance for business intelligence applications.
 
+**Power BI Dashboards**: Provided actionable insights through interactive reports and visualizations.
 
-**Load**: Transformed data was loaded into the AdventureWorks_DWH data warehouse, ensuring efficient and scalable data processing.
+These improvements enhanced the ability of AdventureWorks to make data-driven business decisions, optimize operations, and improve overall efficiency.
+<hr>
+<hr>
 
-
+**I welcome feedback, suggestions, and contributions to improve this project! Feel free to reach out or collaborate to make it even better. 😊**
 
