@@ -32,7 +32,7 @@ The source database, AdventureWorks2019, is a transactional system that contains
 
 **Customer-related tables**: Customer, Person, SalesTerritory, Address, StateProvince, CountryRegion.
 
-**Order-related tables**: SalesOrderHeader, SalesOrderDetailز
+**Order-related tables**: SalesOrderHeader, SalesOrderDetail.
 ![407920621-e26959d4-ce56-418b-986c-4681c23c563b](https://github.com/user-attachments/assets/d31e038a-a855-40dd-8d97-61d07ac8ce85)
 
 **Shipping and delivery**: ShipMethod, TransactionHistory.
@@ -118,8 +118,16 @@ Result Fact Table:
 
 <hr>
 
+<h3>8. Reporting and Data visualization (Power BI) </h3>
 
 
+The Analysis and Reporting Phase focused on exploring the data in the data warehouse (adventure_works_dwh) and generating actionable insights for the adventureworks store. This phase involved the creation of interactive reports and dashboards using Power BI, which allowed business users to explore the data and gain valuable insights. Below are the key components of this phase:
+
+
+![Uploading Overview.png…]()
+
+
+![Uploading Products Analysis.png…]()
 
 
 
